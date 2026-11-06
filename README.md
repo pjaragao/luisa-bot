@@ -33,13 +33,11 @@ The interesting part is the **trust boundary** between the two agents.
 | Nothing is "done" without evidence | Task ledger marks items *effected* only with a quoted confirmation |
 | No credentials in chat | If a secret is pasted the bot refuses to repeat it and suggests a password manager |
 
-## 💬 What it looks like on WhatsApp
+## 💬 How it behaves
 
-> Illustrative conversation in Brazilian Portuguese with fictional data.
-
-<img src="docs/img/reminders.png" width="380" alt="Íris creating a recurring reminder, registering a task and querying the shared business">
-
-*The user asks for a weekly reminder (created and confirmed), registers a task, and asks whether a supplier was already paid. Íris queries the shared business (read-only, so no notice is needed) and answers with the booked reimbursement.*
+The user asks for a weekly reminder (created and confirmed with the schedule), registers a task, or asks whether a supplier was
+already paid. Íris queries the shared business through the link (read-only, so no notice is needed) and answers with the booked
+entry. Any change to the shared business goes through the other agent, which announces it in that group.
 
 ## ✨ Features
 
